@@ -3685,8 +3685,7 @@ const TaxManagementApp = () => {
     // localStorage 사용 중단, 기본 관리자 계정만 생성
     const defaultAccount = { 
       id: 1, 
-      email: 'contact@watercharging.com', 
-      password: 'watercontact!@', 
+      email: 'contact@watercharging.com',  
       role: 'super_admin', 
       name: '시스템 관리자', 
       createdAt: koreaTimeUtils.getKoreaToday(), 
