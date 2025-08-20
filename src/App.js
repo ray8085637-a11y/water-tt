@@ -3690,6 +3690,7 @@ const TaxManagementApp = () => {
     const defaultAccount = { 
       id: 1, 
       email: 'contact@watercharging.com', 
+      password: 'watercontact!@', 
       role: 'super_admin', 
       name: '시스템 관리자', 
       createdAt: koreaTimeUtils.getKoreaToday(), 
